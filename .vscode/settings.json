@@ -1,0 +1,32 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.suggest.autoImports": true,
+
+  "tailwindCSS.rootFontSize": 14,
+  "tailwindCSS.experimental.classRegex": ["[a-zA-Z]*Class='([^']+)'"],
+
+  "css.customData": [".vscode/tailwind.json"],
+
+  "explorer.confirmDelete": false,
+
+  "gitlens.codeLens.recentChange.enabled": true,
+
+  "terminal.integrated.showExitAlert": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+
+  "workbench.editor.labelFormat": "short",
+
+  "editor.fontLigatures": true,
+  "editor.linkedEditing": true,
+  "editor.formatOnSave": false,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.suggestSelection": "first",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.addMissingImports": true
+  },
+}
